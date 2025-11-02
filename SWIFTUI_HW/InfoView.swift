@@ -18,7 +18,7 @@ import SwiftUI
                          InfoRow(post: post)
                      }
                  }
-                 .navigationTitle("Countries")
+                 .navigationTitle("Страны")
              }
          }
      }
