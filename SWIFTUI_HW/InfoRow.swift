@@ -7,22 +7,17 @@
 
 import SwiftUI
 
-     struct InfoRow: View {
-         
+struct InfoRow: View {
          let post: Post
 
          var body: some View {
              HStack {
-                 post.image
+                 Image(post.imageName)
                      .resizable()
                      .frame(width: 50, height: 50)
                      .clipShape(Circle())
-                     .shadow(radius: 10)
-                
                  Text(post.title)
                      .font(.headline)
-                 
-                 Spacer()
              }
          }
      }

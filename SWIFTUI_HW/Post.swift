@@ -9,8 +9,11 @@
 import SwiftUI
 
 struct Post: Identifiable {
-         let id = UUID()
-         let title: String
-         let description: String
-         let image: Image
-     }
+    
+    let id = UUID()
+    let title: String
+    let description: String
+    let imageName: String
+    let area: Double
+    
+}
