@@ -7,14 +7,8 @@
 
 import SwiftUI
 
-     let posts = [
-         Post(title: "РОССИЯ",
-              description: "Россия (официальное название — Российская Федерация) — крупнейшая по территории страна мира, расположенная в Восточной Европе и Северной Азии. Она занимает одну восьмую часть суши Земли и простирается через 11 часовых поясов",
-              image: Image("russia")),
-         Post(title: "США",
-              description: "Соединённые Штаты Америки (США) — это федеративная республика в Северной Америке, состоящая из 50 штатов и округа Колумбия, а также ряда островных территорий",
-              image: Image("usa")),
-         Post(title: "ИТАЛИЯ",
-              description: "Италия, официально Итальянская Республика (итал. Repubblica Italiana), — государство в Южной Европе, расположенное в центре Средиземноморья на Апеннинском полуострове, а также на островах Сицилия и Сардиния и ряде более мелких островов",
-              image: Image("italy")),
-     ]
+let posts = [
+    Post(title: "RUSSIA", description: "Russia (officially known as the Russian Federation) is the largest country in the world by area.", imageName: "russia", area: 17098242),
+    Post(title: "USA", description: "The United States of America (USA) is a federal republic in North America.", imageName: "usa", area: 9833517),
+    Post(title: "ITALY", description: "Italy, officially the Italian Republic, is a country in Southern Europe.", imageName: "italy", area: 301340)
+]

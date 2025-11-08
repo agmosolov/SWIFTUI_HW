@@ -7,15 +7,13 @@
 
 import SwiftUI
 
-     struct InfoDetails: View {
+struct InfoDetails: View {
          let post: Post
 
          var body: some View {
-            
              ScrollView {
-                 
                  VStack(alignment: .leading) {
-                     post.image
+                     Image(post.imageName)
                          .resizable()
                          .aspectRatio(contentMode: .fit)
                      Text(post.title)
